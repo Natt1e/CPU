@@ -1,0 +1,50 @@
+Running: D:\ISEs\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Ise_Files/P7/mips_txt_isim_beh.exe -prj D:/Ise_Files/P7/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Ise_Files/P7/zero.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/Risk_Control.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/NPC.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/M_or_D.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/MW_Reg.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/IFD_Reg.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/GRF.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/EM_Reg.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/DM.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/DE_Reg.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/CP0.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/Controller.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/Bridge.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/ALU.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/mips.v" into library work
+Analyzing Verilog file "D:/Ise_Files/P7/tb_exception.v" into library work
+Analyzing Verilog file "D:/ISEs/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160468 KB
+Fuse CPU Usage: 233 ms
+Compiling module Bridge
+Compiling module TC
+Compiling module CP0
+Compiling module NPC
+Compiling module IFD_Reg
+Compiling module Controller
+Compiling module zero
+Compiling module GRF
+Compiling module DE_Reg
+Compiling module ALU
+Compiling module M_or_D
+Compiling module EM_Reg
+Compiling module DM
+Compiling module MW_Reg
+Compiling module Risk_Control
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 18 Verilog Units
+Built simulation executable D:/Ise_Files/P7/mips_txt_isim_beh.exe
+Fuse Memory Usage: 171212 KB
+Fuse CPU Usage: 437 ms
